@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#173f5f"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#173f5f"
+            android:layout_marginTop="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/nav_header_desc"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                app:srcCompat="@drawable/ripplr_logo_two" />
+
+            <TextView
+                android:id="@+id/txt_navi_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="NA"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/txt_navi_version_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NA"
+                android:gravity="right|center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="12dp"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layout_userinfo"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list_drawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:choiceMode="singleChoice"
+                android:scrollbars="none"
+                android:divider="@null" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Ripplr Distribution</string>
+    <string name="login_id">LOGIN ID</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="enter_username_password">Please enter your Username and Password</string>
+    <string name="welcome">Welcome!</string>
+    <string name="connection_lost_try_again">Connection lost. Please try again.</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="connection_lost">Connection Lost</string>
+    <string name="check_internet">Please check your internet connection and try again.</string>
+    <string name="retry">RETRY</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="session_expired">Session Expired. Please Login Again.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="check_internet_connection">Please check your internet connection and try again.</string>
+    <string name="logged_out">Logged Out</string>
+
+    <string-array name="picking_reason_lables">
+        <item>Select Reason</item>
+        <item>Missing</item>
+        <item>Damage</item>
+        <item>Pick Later</item>
+        <item>No Stock</item>
+    </string-array>
+    <string-array name="picking_reason_values">
+        <item>Select Reason</item>
+        <item>MG</item>
+        <item>DG</item>
+        <item>PL</item>
+        <item>NS</item>
+    </string-array>
+    <string name="title_activity_picking_tab">Picking</string>
+    <string name="title_activity_putting_store_tab">Store</string>
+    <string name="pickking_tab_title_1">Pending</string>
+    <string name="pickking_tab_title_2">Completed</string>
+    <string name="search">Search</string>
+    <string name="scan_or_search">Scan Or Search</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorGreen">#00a82b</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorPrimary">#173f5f</color>
+    <color name="colorPrimaryDark">#173F5F</color>
+    <color name="colorAccent">#173f5f</color>
+    <!--<color name="colorAccent">#9844ff</color>-->
+    <color name="textPrimary">#222</color>
+    <color name="textSecondary">#797979</color>
+    <color name="textTwoSecondary">#404040</color>
+    <color name="textThreeSecondary">#5c5c5c</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackTwo">#4e4e4e</color>
+    <color name="colorWhiteTwo">#bbbbbb</color>
+    <color name="activityBack">#fff</color>
+    <color name="colorTextDark">#fff</color>
+    <color name="colorTextWhiteThree">#545454</color>
+    <color name="colorTextWhiteFive">#747474</color>
+    <color name="colorTextWhiteFour">#303030</color>
+    <color name="colorTextWhiteSix">#414141</color>
+    <color name="colorWhiteBase">#dcdcdc</color>
+    <color name="colorWhiteBaseTwo">#979797</color>
+    <color name="colorDivider">#ddd</color>
+    <color name="colorDividerYellow">#dbad44</color>
+    <color name="colorYellow">#ffc400</color>
+    <color name="colorBlue">#304ffe</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorLightGreen">#afea6b</color>
+    <color name="colorOrange">#ff8c00</color>
+
+    <color name="white">#ffffff</color>
+    <color name="line">#c6cbcf</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="bg">#e7e7e7</color>
+
+    <color name="view_background">#e8ecfa</color>
+    <color name="txt_font">#4e5572</color>
+    <color name="btn_bg">#277bec</color>
+    <color name="yellow">#FFFF00</color>
+
+    <color name="logoGreen">#38b1a8</color>
+
+    <color name="toggle_hover">@color/colorPrimary</color>
+    <color name="toggle_normal">@color/bgLight</color>
+    <color name="toggle_active">@color/colorPrimaryDark</color>
+    <color name="toggle_normal_off">@color/darkgray</color>
+
+    <color name="gainsboro">#DCdCdC</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="darkgray">#a9a9a9</color>
+    <color name="gray">#808080</color>
+    <color name="bgLight">#f8f9fa</color>
+    <color name="opacity10">#1AFFFFFF</color>
+
+</resources>
